@@ -1,0 +1,191 @@
+*{
+    font-family: sans-serif;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: url(https://community-cdn-digitalocean-com.global.ssl.fastly.net/e5y5ptPSFg2LXVAtEYUBr1rx);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    background-color: #006b54;
+    width: 100%;
+    height:95px ;
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+.nav-icon{
+    width: 50%;
+    height: 95px;
+}
+.nav-icon img{
+    width: 100px;
+    height: 100px;
+    margin-left: 115px;
+}
+.link-item{
+    font-size: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 25%;
+}
+.a,.b,.c,.d,.e{
+    color: white;
+    text-decoration: none;
+}
+
+.a:active,.b:active,.c:active,.d:active,.e:active{
+    color: gray;
+}
+
+.icon-item{
+    font-size: 20px;
+    width: 15%;
+    height: 95px;
+    margin-left: 40px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.aa,.bb,.cc,.dd{
+    color: aliceblue;
+}
+
+.aa:active,.bb:active,.cc:active,.dd:active{
+    color: gray;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section .photo-space{
+    background-color:white;
+    height: 300px;
+    width: 300px;
+    margin: 100px auto;
+    border-radius: 30%;
+    border:5px solid #006b54;
+}
+.photo-space img{
+    height: 300px;
+    width: 300px;
+}
+.text{
+    color: black;
+    width: 250px;
+    height: 100px;
+    margin-bottom: 150px;
+}
+.text h1{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+}
+.text p{
+    font-size: 15px;
+    font-family: fantasy;
+    letter-spacing: 2px;
+}
+.text-two{
+    margin-bottom: 250px;
+}
+
+.text-two h1{
+    font-size: 25px;
+}
+.text-two p{
+    font-size: 15px;
+    font-family: fantasy;
+    letter-spacing: 2px;
+}
+.container hr{
+    height:2px;
+    border-width:0;
+    color:#006b54;
+    background-color:#006b54;
+}
+
+#second{
+    background: url(https://designerapp.officeapps.live.com/designerapp/document.ashx?path=/b678b336-de83-4397-823a-8481a9b75ab6/UserAssets/dalle-8bbedc79-b9bf-4f92-a22e-f2e8dc9c02e10251693118552784841300.jpg&dcHint=JapanEast&fileToken=1b248ff0-fce4-4c36-bb95-989d99f76f64);
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.second-space{
+    height: 50px;
+    width: 500px;
+}
+.second-space h1{
+    font-size: 25px;
+    font-family: cursive;
+    color: black;
+}
+.second-space p{
+    font-size: 15px;
+
+}
+
+.accomp{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box1,.box2,.box3{
+    background-color: #006b54;
+    height:300px;
+    width: 25%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.s1,.s2,.s3{
+    width: 50%;
+    height: auto;
+}
+.s1 span,.s2 span,.s3 span{
+    font-size: 20px;
+    font-family: fantasy;
+    color: white;
+    margin:auto;
+}
+.list1,.list2,.list3{
+    font-size: 14px;
+    color: aliceblue;
+}
+
+.footnote{
+    font-size: 20px;
+    font-family: cursive;
+    width: 20%;
+    height: 25px;
+    margin:50px;
+    animation: thanks 1s infinite alternate;
+}
+@keyframes thanks {
+    0%{
+        color:#006b54;
+        transform: scale(1);
+    }
+    100%{
+        color: #006b54;
+        transform: scale(1.3);
+    }
+}
